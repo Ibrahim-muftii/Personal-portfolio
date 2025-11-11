@@ -12,6 +12,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.bg-black-subtle {
+  background-color: rgb(38, 38, 38);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -20,14 +24,19 @@
 }
 
 .heading-text {
-  @apply text-6xl font-semibold py-10 max-w-3xl
+  @apply text-5xl font-semibold py-10 max-w-3xl text-white/65
+}
+
+.paragraph-text {
+  @apply text-base font-normal max-w-3xl text-white/65
 }
 
 body {
-  background: var(--background);
+  background: #111111;
   color: var(--foreground);
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+
 }
 
 .vanishing-text {
@@ -59,3 +68,4 @@ body {
   background: #2911d9;
   background: linear-gradient(145deg, rgba(41, 17, 217, 1) 0%, rgba(41, 67, 153, 1) 28%, rgba(152, 16, 250, 1) 66%);
 }
+

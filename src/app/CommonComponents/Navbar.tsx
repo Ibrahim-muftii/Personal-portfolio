@@ -19,8 +19,8 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="sticky text-sm top-0 w-full bg-white/5">
-      <div className="container flex max-w-5xl mx-auto p-4 ">
+    <div className="sticky text-sm top-0 z-50  py-2">
+      <div className="container flex max-w-5xl mx-auto bg-[#1d1d1d] rounded-4xl p-4">
         <div className="flex items-center gap-x-2 w-36">
           <LuAperture className="text-2xl text-purple-600" />
           <h5 className="text-white/65">Next Proj</h5>

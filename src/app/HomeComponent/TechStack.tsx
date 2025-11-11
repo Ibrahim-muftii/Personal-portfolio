@@ -50,7 +50,7 @@ export default function TechStackMarquee() {
   }, []);
 
   return (
-    <div className="w-full overflow-hidden bg-[#0d1117] py-6">
+    <div className="w-full overflow-hidden py-6">
       <h1 className="heading-text text-center block mx-auto">My Tech Stack</h1>
       <div className="pause-marquee">
         <div

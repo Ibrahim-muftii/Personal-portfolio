@@ -2,13 +2,21 @@ import HomeHeader from "./HomeComponent/header";
 import TechStack from "./HomeComponent/TechStack";
 import './HomeComponent/Home.css';
 import React from "react";
+import AboutMe from "./HomeComponent/AboutMe";
+import BlurryBlob from "./HomeComponent/BlurryBlob";
+import Services from "./HomeComponent/Services";
 const Home = () => {
   return (
     <React.Fragment>
-      <header className="w-full h-[85vh] bg-white/5">
-        <HomeHeader />
+      <header className="relative w-full h-screen overflow-hidden">
+        <BlurryBlob/>
+        <div className="relative z-10">
+          <HomeHeader />
+        </div>
       </header>
       <TechStack />
+      <AboutMe />
+      <Services />
 
     </React.Fragment>
   )

@@ -5,6 +5,7 @@ import React from "react";
 import AboutMe from "./HomeComponent/AboutMe";
 import BlurryBlob from "./HomeComponent/BlurryBlob";
 import Services from "./HomeComponent/Services";
+import Portfolios from "./HomeComponent/Portfolio";
 const Home = () => {
   return (
     <React.Fragment>
@@ -17,7 +18,7 @@ const Home = () => {
       <TechStack />
       <AboutMe />
       <Services />
-
+      <Portfolios/>
     </React.Fragment>
   )
 }

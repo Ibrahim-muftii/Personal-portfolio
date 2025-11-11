@@ -37,7 +37,7 @@ const Navbar = () => {
           }
         </div>
         <div className="flex items-center justify-center w-36">
-          <button className="px-3 py-1.5 rounded-2xl bg-purple-600" >Request a demo</button>
+          <button className="cursor-pointer px-4 py-1.5 font-semibold rounded-2xl bg-purple-600" >Get Quotation</button>
         </div>
       </div>
     </div>

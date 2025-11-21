@@ -9,13 +9,13 @@ const HomeHeader = () => {
   return (
     <div className="py-14 container max-w-6xl mx-auto flex flex-row items-center text-left gap-y-2">
       <div className="w-1/2">
-        <p className="opacity-70 mb-2">Hi' There I'm</p>
+        <p className="opacity-70 mb-2">Hi&apos; There I&apos;m</p>
         <h3 className="text-2xl font-bold mb-2 opacity-80"> Muhammad Ibrahim Mufti</h3>
         <h1 className="text-5xl grad-text mb-4 font-bold"> Full Stack Developer</h1>
-        <div className="flex mb-4 flex-row gap-x-4 justify-start"> 
+        <div className="flex mb-4 flex-row gap-x-4 justify-start">
           <div className="p-3 rounded-full bg-black-subtle group hover:border border-purple-600 transition-all">
             <a target="_blank" href="https://www.instagram.com/ibrahim_muftii?igsh=MTRrcDJqY21iMTJqcA%3D%3D&utm_source=qr">
-              <RiInstagramFill className="text-3xl fill-white/50 group-hover:fill-purple-600 transition-all"/>
+              <RiInstagramFill className="text-3xl fill-white/50 group-hover:fill-purple-600 transition-all" />
             </a>
           </div>
           <div className="p-3 rounded-full bg-black-subtle group hover:border border-purple-600 transition-all">
@@ -23,7 +23,7 @@ const HomeHeader = () => {
               <SiGithub className="text-3xl fill-white/50 group-hover:fill-purple-600 transition-all" />
             </a>
           </div>
-          <div  className="p-3 rounded-full bg-black-subtle group hover:border border-purple-600 transition-all">
+          <div className="p-3 rounded-full bg-black-subtle group hover:border border-purple-600 transition-all">
             <a target="_blank" href="https://www.linkedin.com/in/ibrahim-mufti-243218284/">
               <RiLinkedinFill className="text-3xl fill-white/50 group-hover:fill-purple-600 transition-all" />
             </a>
@@ -54,7 +54,7 @@ const HomeHeader = () => {
         </div>
       </div>
       <div className="w-1/2">
-        <TechOrbit/>
+        <TechOrbit />
       </div>
     </div>
   )

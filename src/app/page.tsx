@@ -6,11 +6,13 @@ import AboutMe from "./HomeComponent/AboutMe";
 import BlurryBlob from "./HomeComponent/BlurryBlob";
 import Services from "./HomeComponent/Services";
 import Portfolios from "./HomeComponent/Portfolio";
+import Reviews from "./HomeComponent/Reviews";
+
 const Home = () => {
   return (
     <React.Fragment>
       <header className="relative w-full h-screen overflow-hidden">
-        <BlurryBlob/>
+        <BlurryBlob />
         <div className="relative z-10">
           <HomeHeader />
         </div>
@@ -18,7 +20,8 @@ const Home = () => {
       <TechStack />
       <AboutMe />
       <Services />
-      <Portfolios/>
+      <Portfolios />
+      <Reviews />
     </React.Fragment>
   )
 }
